@@ -1,12 +1,16 @@
 #body{  
  background-color:pink;
  font-family:helvetica,Arial, Helvetica, sans-serif;
+}
 
- a{text-decoration:none;
+ a{
+text-decoration:none;
 color:red;
  }
+ 
 h1,h2,h3 { 
-margin:0;} 
+margin:0;
+} 
 
 #container{ 
 background-color: blueviolet;
@@ -14,11 +18,13 @@ width:800px;
 margin-left:auto;
 margin-right:auto; 
 }
+
 #header{
-background-color:skyblue
-color;:black
-text-align:center
-padding:10px;} 
+background-color:skyblue;
+color:black;
+text-align:center;
+padding:10px;
+} 
 
 
 #content{ 
@@ -28,18 +34,22 @@ padding: 10px;
 width:180px;
 float:left;
 }
-#nav ul{ list-style-type:none;
-:padding:0;}
+#nav ul{ 
+list-style-type:none;
+padding:0;
+}
 #nav.selected{ 
-font-weight:bold
+font-weight:bold;
 }
 #main{ 
 width:600px;
-float:right;}
+float:right;
+}
 #footer{ 
 clear:both;
-padding:10px 
-background-color#999999;
+padding:10px;
+background-color:#999999;
 color:white;
-text-align:right 
-padding:10px;}
+text-align:right;
+padding:10px;
+}
